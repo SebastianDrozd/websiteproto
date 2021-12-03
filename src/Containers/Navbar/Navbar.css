@@ -1,0 +1,26 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    padding-top: 2em;
+    
+    color: rgb(255, 255, 255);
+}
+.links-ul{
+    
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.links-ul-item{
+    padding: 1em;
+    padding-top: 1em !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.links-ul-item:hover{
+   border-bottom: 1px solid white;
+   cursor: pointer;
+}

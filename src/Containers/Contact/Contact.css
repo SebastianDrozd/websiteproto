@@ -1,0 +1,66 @@
+.contact-outer-container{
+   
+    height: 100vh;
+}
+.item2{
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+}
+
+.contact-form{
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 80px;
+    padding: 4em;
+    
+}
+
+.input-custom{
+    border: 0;
+    border-bottom: 1px solid rgb(174, 175, 182); 
+}
+.contact-header{
+    font-size: 40px;
+    color: rgb(64, 80, 224);
+    text-align: center;
+}
+
+.contact-button{
+    float: right;
+    padding: 2em;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(64, 80, 224);;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+.contact-button2{
+    float: right;
+    padding: 2em;
+    border-radius: 10px;
+    border: 0;
+    background-color: #0fbcf9;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+.contact-inner-item2{
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 100px;
+    transition: 0.3s;
+    background-color: white;
+    
+}
+.contact-inner-item3{
+   box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1);
+   border-radius: 100px 10px;
+   transition: 0.3s;
+   background-color: white;
+}
+
+.floats:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}

@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body, html {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(110vh);
+
+  scroll-snap-type: y mandatory;
+ 
+}
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+  margin: 0em !important;
+  padding: 0em !important;
+
+}
+.section2{
+
+
+
+  scroll-snap-align: start;
+ transition: 0.3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section22{
+ 
+
+        /* global 92%+ browsers support */
+      
+        color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cta-and-contact{
+  background-image: url("./Containers/Header/dude.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+.section23{
+ 
+
+       
+       color: rgb(0, 0, 0);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inview{
+  opacity: 1 !important;
+  
 }

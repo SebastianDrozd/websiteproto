@@ -1,0 +1,11 @@
+.header-container{
+   
+    background-image: url("dude.jpg");
+    background-size: cover;
+    overflow-y: hidden !important;
+    height: 100vh;
+    
+   
+  
+    
+}

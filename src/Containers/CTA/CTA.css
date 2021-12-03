@@ -1,0 +1,107 @@
+.cta-container{
+        
+        
+       width: 70%;
+       margin-left: auto;
+       margin-right: auto;
+       background-color: white;
+       box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1);
+       border-radius: 80px;
+        padding: 2em;
+        height: 70vh;
+        padding: 4em !important;
+        padding-bottom: 7em !important;
+        /* global 92%+ browsers support */
+        background: whitesmoke;
+       
+        
+}
+#hero-image2{
+  transition: all 2s;
+  opacity: 0;
+  transform: translateY(40px);
+}
+.cta-header{
+    text-align: center;
+    color: #0fbcf9;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sub-header{
+    margin-top: 1em;
+    text-align: center;
+    color: rgb(80, 78, 78);
+    margin-bottom: 2em !important;
+}
+.cta-header-cards{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(24, 56, 233);
+}
+.cta-header-card{
+    text-align: center;
+    padding: 2em;
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1);
+    height: 20em;
+    width: 15em;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.horizontal{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    background-color: white;
+}
+
+.pricing-card{
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+    background-color: #fff;
+   border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+  }
+  
+  .pricing-card-header{
+    background-color: #0fbcf9;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+  }
+  
+  .pricing-card:hover .pricing-card-header{
+    box-shadow: 0 0 0 26em #0fbcf9;
+  }
+  
+  .price{
+    font-size: 70px;
+    color: #0fbcf9;
+    margin: 40px 0;
+    transition: .2s linear;
+  }
+  
+  .price sup, .price span{
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .pricing-card:hover ,.pricing-card:hover .price{
+    color: #fff;
+  }
+  
+  .pricing-card li{
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
